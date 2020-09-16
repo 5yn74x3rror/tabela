@@ -1,0 +1,23 @@
+@mixin reset-substates {
+  &:active {
+    outline: none;
+    border: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+@mixin look-like-a-link {
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+  }
+
+  @include reset-substates;
+}

@@ -1,0 +1,9 @@
+[
+  { "fruit": "Apple", "cost": 100, "shape": "round", "color": "red" },
+  { "fruit": "Orange", "cost": 50, "shape": "rounder", "color": "orange" },
+  { "fruit": "Banana", "cost": 35, "shape": "long", "color": "yellow" },
+  { "fruit": "Mango", "cost": 70, "shape": "eliptic", "color": "mixed" },
+  { "fruit": "Pineapple", "cost": 45, "shape": "punky", "color": "depends" },
+  { "fruit": "Papaya", "cost": 40, "shape": "eggy", "color": "mixed" },
+  { "fruit": "Watermelon", "cost": 35, "shape": "round", "color": "psychodelic" }
+]

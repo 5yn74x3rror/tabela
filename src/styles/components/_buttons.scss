@@ -1,0 +1,11 @@
+.table-buttons {
+  &__wrap {
+    max-width: 960px;
+    height: 25px;
+    margin: 20px auto;
+  }
+
+  &__button {
+    margin-right: 10px;
+  }
+}

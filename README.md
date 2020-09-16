@@ -1,15 +1,25 @@
+# LOCAL SETUP
+
 # OGOLNE POCZYNIONE ZALOZENIA
 
+- generalnie: czasem dodawalem funckjonalnosci jako showcase, ze nie dzialam w prozni i ze projekt mozna 'kontynuowac' a czasem uznalem, ze szkoda na te chwile czasu zeby mnozyc funcjonalnosci, ktore 'nic' nie beda robic lub sa tu niepotrzebne (routing, SSR itp) i tylko sprawia, ze ciezko bedzie sie szybko rozeznac co i jak
 - create-react-app boileplate dla szybkiego prototypowania - normalnie raczej zaczalbym konfiguracje od zera
-- poniewaz liczba funckjonalnosci tabeli jest minimalna stwierdzilem, ze lepiej samemu to ogarnac niz uzywac react-table lub czegosc w tym stylu
+- poniewaz liczba funckjonalnosci tabeli jest minimalna stwierdzilem, ze lepiej samemu to ogarnac niz uzywac react-table lub czegosc w tym stylu, normalnie byloby to troche bez sensu...
 - projekt bedzie sie rozrastac (hipotetycznie) wiec organizacja katalogow, separacja modulow i inne takie sa troche ponad wymiar dla tej funcjonalnosci
 - router normalnie jest nieodzowny lecz tu nie jest potrzebny
 - Sass + BEM do stylowania - osobista preferencja lecz rownie dobrze mogloby byc kazde inne rozwiazanie typu css-in-js czy styled components
 - eslint + airbnb config + kilka zmian - kwestia przyzwyczajenia
+- husky by nie commitowac niezlintowanego kodu - osobista preferencja
+- nie wrzucalem zadnego configa produkcyjnego, CI i innych takiech ktore wydaja sie zbytkiem na te chwile
+- zamiast motac sie w intergracje z nieistniejacym zewnetrznym zrodlem danych pododawalem timeouty zeby zasymulowac ladowanie
 
-TODO:
+LISTA RZECZY KTORE BYM ROZWAZYL / DODAL (zaleznie od potrzeb projektowych)
 
-- add npx to localsetup info
+- SSR
+- routing (wiadomo)
+- (lazy load || virtual lists) + react-table
+- axios, lepszy redux middleware (np. redux saga)
+- integracja z API
 
 # create-react-app README.md content below
 
