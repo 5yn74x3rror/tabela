@@ -1,3 +1,18 @@
+# OGOLNE POCZYNIONE ZALOZENIA
+
+- create-react-app boileplate dla szybkiego prototypowania - normalnie raczej zaczalbym konfiguracje od zera
+- poniewaz liczba funckjonalnosci tabeli jest minimalna stwierdzilem, ze lepiej samemu to ogarnac niz uzywac react-table lub czegosc w tym stylu
+- projekt bedzie sie rozrastac (hipotetycznie) wiec organizacja katalogow, separacja modulow i inne takie sa troche ponad wymiar dla tej funcjonalnosci
+- router normalnie jest nieodzowny lecz tu nie jest potrzebny
+- Sass + BEM do stylowania - osobista preferencja lecz rownie dobrze mogloby byc kazde inne rozwiazanie typu css-in-js czy styled components
+- eslint + airbnb config + kilka zmian - kwestia przyzwyczajenia
+
+TODO:
+
+- add npx to localsetup info
+
+# create-react-app README.md content below
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
