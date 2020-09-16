@@ -1,5 +1,13 @@
 # LOCAL SETUP
 
+Wymagany: zainstalowany node.js
+Wymagane do lintowania, prettify-owania i git hookow: npm i -g npx
+
+- git clone https://github.com/5yn74x3rror/tabela.git tabela
+- cd tabela
+- npm i
+- npm start
+
 # OGOLNE POCZYNIONE ZALOZENIA
 
 - generalnie: czasem dodawalem funckjonalnosci jako showcase, ze nie dzialam w prozni i ze projekt mozna 'kontynuowac' a czasem uznalem, ze szkoda na te chwile czasu zeby mnozyc funcjonalnosci, ktore 'nic' nie beda robic lub sa tu niepotrzebne (routing, SSR itp) i tylko sprawia, ze ciezko bedzie sie szybko rozeznac co i jak
